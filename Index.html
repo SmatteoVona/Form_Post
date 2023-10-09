@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova Form</title>
+    
+</head>
+<body>
+    <h1>Prova Form con php</h1>
+    <form action="./Form.php" method="post">
+        <p>Inserimento dati personali</p>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br>
+        
+        <label for="cognome">Cognome:</label><br>
+        <input type="text" id="cognome" name="cognome" required><br>
+        
+        <label for="eta">Età:</label><br>
+        <input type="number" id="eta" name="eta" required><br>
+
+        <p>Sesso: </p>
+        <input type="radio" id="uomo" name="scelta" value="Uomo">
+        <label for="uomo">Uomo</label><br>
+        <input type="radio" id="donna" name="scelta" value="Donna">
+        <label for="donna">Donna</label><br>
+        <input type="radio" id="non_binario" name="scelta" value="non binario">
+        <label for="non_binario">Non binario</label><br><br>
+  
+        
+        
+        <input type="submit" value="Continua">
+    </form>
+</body>
+</html>
